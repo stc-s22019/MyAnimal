@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Animal</string>
+    <string name="bt_next">次の画面を表示</string>
+    <string name="bt_previous">前の画面に戻る</string>
+    <string name="showDescriptionButton">ライオン</string>
+    <string name="showDescriptionButton2">トラ</string>
+    <string name="showDescriptionButton3">チーター</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DescriptionFragment3">
+
+    <TextView
+        android:id="@+id/descriptionText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="チーターは、「哺乳網・食肉目・ネコ科」の動物で、ライオン、トラと同じとネコ科の肉食動物です。 アフリカのサハラ砂漠以南、西アジア、中近東などのサバンナが生息地です。 陸上を走る動物のなかでは最も速く、時速100km以上のスピードで走ることができます。 チーターは群れをつくらず、狩りも単独で行ないます。"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="358dp"
+        android:layout_height="152dp"
+        android:src="@drawable/cheetah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionText3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
